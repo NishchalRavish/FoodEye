@@ -18,7 +18,7 @@ To get started with FoodEye, follow these steps:
 
 ```bash
 git clone https://github.com/NishchalRavish/FoodEye.git
-```bash
+bash
 
 2. Create a virtual environment and activate it:
 ```bash
