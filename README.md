@@ -9,3 +9,27 @@ FoodEye is an innovative application aimed at providing accurate food classifica
 ## Model
 
 The model used in this application is EfficientNet-B2, a powerful and efficient deep learning model for image classification. The pre-trained model weights are stored in `effnetb2_model.pth`.
+
+## Getting Started
+
+To get started with FoodEye, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/NishchalRavish/FoodEye.git
+
+Create a virtual environment and activate it:
+bash
+python3 -m venv venv
+source venv/bin activate
+
+(On Windows, use venv\Scripts\activate)
+Install the required dependencies:
+bash
+pip install -r requirements.txt
+
+Usage
+Run the application:
+bash
+python app.py
