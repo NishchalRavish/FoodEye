@@ -1,6 +1,6 @@
 # FoodEye
 
-Worried about what's on your plate? Worry no more with FoodEye, an application designed to analyze and classify food items using advanced machine learning models.
+Worried about what's on your plate? Worry no more with FoodEye, an application designed to analyze and classify food items using PyTorch model.
 
 ## About
 
