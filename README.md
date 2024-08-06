@@ -13,28 +13,19 @@ The model used in this application is EfficientNet-B2, a powerful and efficient 
 ## Getting Started
 
 To get started with FoodEye, follow these steps:
-
+```bash
 1. Clone the repository:
 
-```bash
 git clone https://github.com/NishchalRavish/FoodEye.git
 
-
 2. Create a virtual environment and activate it:
-```bash
+
 python3 -m venv venv
 source venv/bin activate
-```bash
 
 3. Install the required dependencies:
-```bash
+
 pip install -r requirements.txt
-```bash
 
 4. Run the application:
-```bash
 python app.py
-```bash
-
-5. Try the Application
-To test the application, go to FoodEye on Hugging Face[
