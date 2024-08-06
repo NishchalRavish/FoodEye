@@ -12,8 +12,7 @@ with open('class_names.txt','r') as f:
 effnetb2_model, efficientnet_b2_transforms = create_model()
 
 effnetb2_model.load_state_dict(
-    torch.load(f='effnetb2_model.pth'),
-    map_location=torch.device('cpu'),
+    torch.load(f='effnetb2_model.pth', map_location=torch.device('cpu'))
 )
 
 def predict(img) -> Tuple[Dict,float]:
