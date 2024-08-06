@@ -10,8 +10,8 @@ FoodEye is an innovative application aimed at providing accurate food classifica
 
 The model used in this application is EfficientNet-B2, a powerful and efficient deep learning model for image classification. The pre-trained model weights are stored in `effnetb2_model.pth`.
 
-## Try out the Application
-To try the application, go to (FoodEye on Hugging Face)[https://huggingface.co/spaces/Nishchal08/FoodEye]
+# Try out the Application
+To try the application, go to [FoodEye on Hugging Face](https://huggingface.co/spaces/Nishchal08/FoodEye).
 
 ## Getting Started
 
