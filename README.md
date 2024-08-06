@@ -18,7 +18,7 @@ To get started with FoodEye, follow these steps:
 
 ```bash
 git clone https://github.com/NishchalRavish/FoodEye.git
-bash
+
 
 2. Create a virtual environment and activate it:
 ```bash
@@ -37,3 +37,4 @@ python app.py
 ```bash
 
 5. Try the Application
+To test the application, go to FoodEye on Hugging Face[
