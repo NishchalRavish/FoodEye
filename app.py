@@ -24,7 +24,7 @@ def predict(img) -> Tuple[Dict,float]:
     with torch.inference_mode():
         pred_probs = torch.softmax(effnetb2_model(img), dim=1)
         
-    pred_labels_and_probs = {class_names[i]: float(pred_probs[0][i] for i in range(len(class_names)))}
+    pred_labels_and_probs = {class_names[i]: float(pred_probs[0][i]) for i in range(len(class_names))}
     
     end_time = timer()
     pred_time = round(end_time - start_time, 3)
@@ -35,7 +35,8 @@ title = 'FoodEye'
 description = "Worried about what's on the plate, worry no more with this application!"
 article = "Create using PyTorch"
 
-example_list = [['example/' + example ] for example in os.listdir('examples/')]
+example_list = [['examples/' + example ] for example in os.listdir('examples/')]
+print(example_list)
 
 gradio_app = gr.Interface(fn=predict,
                           inputs=gr.Image(type='pil'),
