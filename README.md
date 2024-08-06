@@ -17,16 +17,21 @@ To get started with FoodEye, follow these steps:
 1. Clone the repository:
 
 git clone https://github.com/NishchalRavish/FoodEye.git
+```
 
+```bash
 2. Create a virtual environment and activate it:
 
 python3 -m venv venv
 source venv/bin activate
-
+```
+```bash
 3. Install the required dependencies:
 
 pip install -r requirements.txt
+```
 
+```bash
 4. Run the application:
-
 python app.py
+```
